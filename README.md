@@ -4,8 +4,8 @@ ETL Group Project
 <h2 align="center">:dollar: :soccer: Major League Soccer and Salary :soccer: :dollar:</h2>
 
 # E: Extract 
-https://fbref.com/en/comps/22/1558/stats/2017-Major-League-Soccer-Stats#all_stats_standard
-https://www.kaggle.com/crawford/us-major-league-soccer-salaries?select=mls-salaries-2017.csv
+*https://fbref.com/en/comps/22/1558/stats/2017-Major-League-Soccer-Stats#all_stats_standard
+*https://www.kaggle.com/crawford/us-major-league-soccer-salaries?select=mls-salaries-2017.csv
 
 Downloaded the data from the csv files to a Jupyter Notebook
 

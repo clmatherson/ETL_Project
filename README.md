@@ -5,6 +5,7 @@ ETL Group Project
 
 # E: Extract 
 *https://fbref.com/en/comps/22/1558/stats/2017-Major-League-Soccer-Stats#all_stats_standard
+
 *https://www.kaggle.com/crawford/us-major-league-soccer-salaries?select=mls-salaries-2017.csv
 
 Downloaded the data from the csv files to a Jupyter Notebook

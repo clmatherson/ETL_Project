@@ -14,10 +14,12 @@ Downloaded the data from the csv files to a Jupyter Notebook
 # T: Transform
 cleaned the data:
     took out the '-' from players names in the fbref table - this allows the two tables to sync up
+
 Kept the duplicate players - they played on multiple teams (trades)
 
 
 # L: Load
 Loaded the newly transformed data and tables into postqresql 
+
 Postqresql was chosen because it allows for easier manipulation of the tables.  Anyone wanting to determine how much a player makes per min the play can easily perferm that function, they can also determine how much a squad pays it players and which squad pays the most or the least. 
 

@@ -1,7 +1,8 @@
 # ETL_Project
-ETL Group Project 
 
 <h2 align="center">:dollar: :soccer: Major League Soccer and Salary :soccer: :dollar:</h2>
+
+Contributers: Craig Matherson, Paul Eppers, Juliann Pezzullo, and Connor Lanier
 
 # E: Extract 
 *https://fbref.com/en/comps/22/1558/stats/2017-Major-League-Soccer-Stats#all_stats_standard

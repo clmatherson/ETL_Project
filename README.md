@@ -8,9 +8,8 @@ ETL Group Project
 
 *https://www.kaggle.com/crawford/us-major-league-soccer-salaries?select=mls-salaries-2017.csv
 
-Downloaded the data from the csv files to Jupyter Notebook 
-    
-    Included header = 5 for the 2017 Major League Stats so the data would be starting with the correct headers and would not have to lose drop the top rows
+Downloaded the data from the csv files to Jupyter Notebook
+*    Included header = 5 for the 2017 Major League Stats so the data would be starting with the correct headers and would not have to lose drop the top rows
 
 
 # T: Transform

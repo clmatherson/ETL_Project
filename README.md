@@ -17,11 +17,14 @@ Downloaded the CSV files from the databases found.
 
 
 # T: Transform
-Cleaned the fbref data:
--    Renamed columns to make column headers clearer
--    Cleaned up the player column by taking out the '\', the duplicate name, and '-'; allowing for two tables to sync and coorespond with the player names
--    Split the nation column into two additional columns named nation_2-two digit code and nation_3-three digit country code
--    Changed the column types from object to integer or float where needed
+Following the next step of ETL to start cleaning the Fbref data to prepare it for our own database.
+*    Renamed columns to make column headers clearer.
+*    Cleaned up the two player columns by dropping the first player column and taking the unnecessary lettering out of the second column.
+-        Chose the second column because it did not have language specific lettering such as accent marks
+-        Dropped “”,”- “, out of the second column
+*    Split the nation column into two additional columns. 
+*    Named the two new columns Nation_2-two-digit code and Nation_3-three-digit country code
+*    Changed the column types from object to integer or float where needed
 
 Cleaned the salaries data:
 -    Renamed columns

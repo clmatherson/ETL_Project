@@ -9,11 +9,10 @@ Contributers: Craig Matherson, Paul Eppers, Juliann Pezzullo, and Connor Lanier
 
 *https://www.kaggle.com/crawford/us-major-league-soccer-salaries?select=mls-salaries-2017.csv
 
-Downloaded the data from the csv files to Jupyter Notebook
-*    Included header = 5 for the 2017 Major League Stats so the data would be starting with the correct headers and would not have to lose drop the top rows
+
 Downloaded the CSV files from the databases found.
-*    Changed the header to start at the correct place, dropping the first four rows, so not would not lose any data and so it would start at the correct place.
-     “Header = 5”
+*    Changed the header to start at the correct place, dropping the first four rows, so would not lose any data and the data would start at the correct place.
+<br>“Header = 5”</br>
 
 
 # T: Transform
@@ -34,9 +33,8 @@ Cleaned the salaries data:
        
 -    Created new tables from Fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs.
 
-
+![ERD](ERD_diagram.png)
 # L: Load
--    Added image of relationship diagram
 -    Loaded the newly transformed data and tables into postqresql
 
 Postqresql was chosen because it allows for easier manipulation of the tables. It allows anyone wanting to determine certain functions such as, how much a player makes per min, allowing for ease of use. They can also determine how much a squad pays its players and which squad pays the most or the least. Ultimately Postgresql allowed for the most ease of use while keeping functionality.

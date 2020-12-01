@@ -23,7 +23,8 @@ Cleaned the fbref data:
 Cleaned the salaries data:
 -    Renamed columns
 -    Dropped unnecessary columns (repeated from fbref table)
--    Kept the duplicate players - they played on multiple teams and had different salaries for the teams
+-    Kept the duplicate players
+        - they played on multiple teams and had different salaries for the teams
     
 Created new tables from fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs 
     

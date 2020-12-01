@@ -27,13 +27,10 @@ Following the next step of ETL to start cleaning the Fbref data to prepare it fo
 -    Changed the column types from object to integer or float where needed
 
 Cleaned the salaries data:
--    Renamed columns
--    Dropped unnecessary columns (repeated from fbref table)
--    Kept the duplicate players
-        - they played on multiple teams and had different salaries for the teams
-    
-Created new tables from fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs 
-    
+-    Renamed columns as necessary 
+-    Dropped unnecessary, and repeating columns (repeated from Fbref table)
+        - Kept the duplicate players as they played on multiple teams. 
+  
 
 
 # L: Load

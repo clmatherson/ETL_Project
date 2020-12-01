@@ -29,8 +29,9 @@ Following the next step of ETL to start cleaning the Fbref data to prepare it fo
 Cleaned the salaries data:
 -    Renamed columns as necessary 
 -    Dropped unnecessary, and repeating columns (repeated from Fbref table)
-        - Kept the duplicate players as they played on multiple teams. 
-  
+-    Kept the duplicate players 
+       - The repeating names came from player trades and some players in multiple clubs 
+Created new tables from Fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs.
 
 
 # L: Load

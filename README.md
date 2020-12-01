@@ -12,8 +12,8 @@ Contributers: Craig Matherson, Paul Eppers, Juliann Pezzullo, and Connor Lanier
 Downloaded the data from the csv files to Jupyter Notebook
 *    Included header = 5 for the 2017 Major League Stats so the data would be starting with the correct headers and would not have to lose drop the top rows
 Downloaded the CSV files from the databases found.
-*       Changed the header to start at the correct place, dropping the first four rows, so not would not lose any data and so it would start at the correct place.
-        “Header = 5”
+*    Changed the header to start at the correct place, dropping the first four rows, so not would not lose any data and so it would start at the correct place.
+     “Header = 5”
 
 
 # T: Transform

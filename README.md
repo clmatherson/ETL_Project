@@ -40,4 +40,3 @@ Cleaned the salaries data:
 -    Loaded the newly transformed data and tables into postqresql
 
 Postqresql was chosen because it allows for easier manipulation of the tables. It allows anyone wanting to determine certain functions such as, how much a player makes per min, allowing for ease of use. They can also determine how much a squad pays its players and which squad pays the most or the least. Ultimately Postgresql allowed for the most ease of use while keeping functionality.
-

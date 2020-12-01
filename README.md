@@ -12,7 +12,7 @@ Contributers: Craig Matherson, Paul Eppers, Juliann Pezzullo, and Connor Lanier
 
 Downloaded the CSV files from the databases found.
 *    Changed the header to start at the correct place, dropping the first four rows, so would not lose any data and the data would start at the correct place.
-<br>“Header = 5”</br>
+       * “Header = 5”
 
 
 # T: Transform

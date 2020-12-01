@@ -31,13 +31,13 @@ Cleaned the salaries data:
 -    Dropped unnecessary, and repeating columns (repeated from Fbref table)
 -    Kept the duplicate players 
        - The repeating names came from player trades and some players in multiple clubs 
-Created new tables from Fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs.
+       
+-    Created new tables from Fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs.
 
 
 # L: Load
-add image of relationship diagram
+-     Added image of relationship diagram
+-     Loaded the newly transformed data and tables into postqresql
 
-Loaded the newly transformed data and tables into postqresql 
-
-Postqresql was chosen because it allows for easier manipulation of the tables.  Anyone wanting to determine how much a player makes per min the play can easily perferm that function, they can also determine how much a squad pays it players and which squad pays the most or the least. 
+Postqresql was chosen because it allows for easier manipulation of the tables. It allows anyone wanting to determine certain functions such as, how much a player makes per min, allowing for ease of use. They can also determine how much a squad pays its players and which squad pays the most or the least. Ultimately Postgresql allowed for the most ease of use while keeping functionality.
 

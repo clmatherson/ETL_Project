@@ -16,7 +16,7 @@ Downloaded the CSV files from the databases found.
 
 
 # T: Transform
-Following the next step of ETL to start cleaning the Fbref data to prepare it for our own database.
+Started cleaning the Fbref data to prepare it for our own database.
 -    Renamed columns to make column headers clearer.
 -    Cleaned up the two player columns by dropping the first player column and taking the unnecessary lettering out of the second column.
        - Chose the second column because it did not have language specific lettering such as accent marks
@@ -31,7 +31,7 @@ Cleaned the salaries data:
 -    Kept the duplicate players 
        - The repeating names came from player trades and some players in multiple clubs 
        
--    Created new tables from Fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs.
+Created new tables from Fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs.
       - Positions table with position's id
       - Players table with all the player's from both data sets
       - Clubs table with the different teams

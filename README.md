@@ -32,9 +32,9 @@ Cleaned the salaries data:
        - The repeating names came from player trades and some players in multiple clubs 
        
 Created new tables from Fbref data allowing for smaller tables; users can choose to pull in the additional information based on their needs.
-      - Positions table with position's id
-      - Players table with all the player's from both data sets
-      - Clubs table with the different teams
+ -    Positions table with position's id
+ -    Players table with all the player's from both data sets
+ -    Clubs table with the different teams
       
 ![ERD](ERD_diagram.png)
 # L: Load
